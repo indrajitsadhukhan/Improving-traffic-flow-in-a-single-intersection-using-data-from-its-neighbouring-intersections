@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Saturday 18 January 2020 07:36:12 PM IST by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/subham/Desktop/Mini-Project2020/intersection/intersection.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/subham/Desktop/Mini-Project2020/intersection/intersection.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="C" type="static" programID="0" offset="0">
+        <phase duration="10" state="GGgggGggrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="4" state="yyyyyyyyrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrrGGgggGggrrrrrrrrrrrrrrrr"/>
+        <phase duration="4" state="rrrrrrrryyyyyyyyrrrrrrrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrrrrrrrrrrGGgggGggrrrrrrrr"/>
+        <phase duration="4" state="rrrrrrrrrrrrrrrryyyyyyyyrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrrrrrrrrrrrrrrrrrrGGgggGgg"/>
+        <phase duration="4" state="rrrrrrrrrrrrrrrrrrrrrrrryyyyyyyy"/>
+    </tlLogic>
+</additional>
